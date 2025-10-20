@@ -1,0 +1,412 @@
+[
+  {
+    "id": "POL-001",
+    "category": "Políticas",
+    "iso42001": {
+      "code": "A.2",
+      "title": "Políticas relacionadas con la IA",
+      "description": "Proporcionar dirección y apoyo para sistemas de IA según requisitos comerciales",
+      "objective": "Establecer un marco de políticas que guíe el desarrollo y uso de sistemas de IA de manera ética y responsable",
+      "keyElements": [
+        "Definición de principios éticos para IA",
+        "Consideración de impacto social",
+        "Alineamiento con objetivos comerciales",
+        "Gestión de riesgos específicos de IA"
+      ],
+      "implementationRequirements": [
+        "Documentación formal de políticas",
+        "Revisión periódica por dirección",
+        "Comunicación a todas las partes interesadas",
+        "Mecanismos de supervisión continua"
+      ]
+    },
+    "iso27001": {
+      "code": "A.5.1",
+      "title": "Políticas para la seguridad de la información",
+      "description": "Establecer marco para directrices de seguridad de la información",
+      "objective": "Proteger la información mediante políticas que aseguren la confidencialidad, integridad y disponibilidad",
+      "keyElements": [
+        "Protección de activos de información",
+        "Cumplimiento normativo",
+        "Gestión de riesgos de seguridad",
+        "Responsabilidades definidas"
+      ],
+      "implementationRequirements": [
+        "Aprobación formal por dirección",
+        "Comunicación a empleados y partes interesadas",
+        "Revisión de adecuación y efectividad",
+        "Actualización ante cambios significativos"
+      ]
+    },
+    "relationship": {
+      "similarityLevel": "Alto",
+      "numericValue": 4,
+      "synergy": "ISO 42001 amplía las políticas de seguridad de información para incluir consideraciones específicas de IA",
+      "technicalSimilarities": [
+        "Requieren documentación formal de políticas",
+        "Necesitan revisión periódica por dirección",
+        "Deben alinearse con objetivos organizacionales",
+        "Requieren comunicación a partes interesadas"
+      ],
+      "keyDifferences": [
+        "ISO 42001 se enfoca específicamente en riesgos éticos de IA",
+        "ISO 42001 considera impacto social de los sistemas",
+        "ISO 27001 se centra en confidencialidad, integridad y disponibilidad",
+        "ISO 27001 no aborda aspectos algorítmicos específicos"
+      ]
+    },
+    "implementationGuidance": {
+      "leverageFrom27001": [
+        "Utilizar estructura existente de políticas de seguridad",
+        "Aprovechar procesos de revisión y aprobación",
+        "Mantener canales de comunicación establecidos"
+      ],
+      "additionalFor42001": [
+        "Incluir cláusulas sobre ética en IA",
+        "Definir métricas para evaluación de impacto social",
+        "Establecer protocolos para revisión algorítmica",
+        "Crear mecanismos de reporte de sesgos"
+      ],
+      "integrationTips": [
+        "Ampliar políticas existentes en lugar de crear nuevas desde cero",
+        "Incluir consideraciones de IA en revisiones periódicas de seguridad",
+        "Formar al personal sobre ambos aspectos en sesiones conjuntas"
+      ]
+    },
+    "maturityIndicators": {
+      "initial": "Políticas de seguridad básicas sin consideración de IA",
+      "managed": "Políticas separadas para seguridad e IA",
+      "defined": "Políticas integradas con secciones específicas para IA",
+      "quantitativelyManaged": "Políticas con métricas específicas para evaluación de impacto de IA",
+      "optimizing": "Políticas dinámicas que se adaptan automáticamente a nuevos riesgos de IA"
+    }
+  },
+  {
+    "id": "ORG-001",
+    "category": "Organización",
+    "iso42001": {
+      "code": "A.3",
+      "title": "Organización interna",
+      "description": "Establecer responsabilidad para implementación y gestión de sistemas de IA",
+      "objective": "Definir una estructura organizacional clara para gobernanza de sistemas de IA",
+      "keyElements": [
+        "Roles y responsabilidades específicas para IA",
+        "Mecanismos de supervisión ética",
+        "Procesos de reporte de incidentes de IA",
+        "Gestión de responsabilidad algorítmica"
+      ],
+      "implementationRequirements": [
+        "Definición formal de roles para gobernanza de IA",
+        "Establecimiento de comités éticos de IA",
+        "Procedimientos para reporte de preocupaciones éticas",
+        "Mecanismos de rendición de cuentas"
+      ]
+    },
+    "iso27001": {
+      "code": "A.5.2",
+      "title": "Roles y responsabilidades",
+      "description": "Definir y asignar responsabilidades para seguridad de la información",
+      "objective": "Asegurar que todas las responsabilidades de seguridad de información estén definidas y asignadas",
+      "keyElements": [
+        "Definición de responsabilidades de seguridad",
+        "Segregación de funciones",
+        "Comunicación de responsabilidades",
+        "Gestión de activos de información"
+      ],
+      "implementationRequirements": [
+        "Documentación de roles y responsabilidades",
+        "Asignación formal de propietarios de activos",
+        "Procedimientos para segregación de funciones",
+        "Comunicación a todas las partes interesadas"
+      ]
+    },
+    "relationship": {
+      "similarityLevel": "Alto",
+      "numericValue": 4,
+      "synergy": "ISO 42001 extiende la estructura organizacional de seguridad para incluir responsabilidades específicas de IA",
+      "technicalSimilarities": [
+        "Definición de roles y responsabilidades",
+        "Asignación de responsabilidades específicas",
+        "Procesos para reporte de incidencias",
+        "Comunicación de responsabilidades"
+      ],
+      "keyDifferences": [
+        "ISO 42001 incluye reporte de preocupaciones éticas",
+        "ISO 42001 enfatiza responsabilidad algorítmica",
+        "ISO 27001 se centra en protección de activos",
+        "ISO 27001 no aborda sesgos algorítmicos"
+      ]
+    },
+    "implementationGuidance": {
+      "leverageFrom27001": [
+        "Utilizar estructura existente de comités de seguridad",
+        "Aprovechar procesos de asignación de responsabilidades",
+        "Mantener canales de reporte de incidentes"
+      ],
+      "additionalFor42001": [
+        "Crear roles específicos para ética de IA",
+        "Establecer comités de revisión algorítmica",
+        "Definir métricas para evaluación de sesgos",
+        "Implementar mecanismos de transparencia algorítmica"
+      ],
+      "integrationTips": [
+        "Ampliar descripciones de roles existentes para incluir responsabilidades de IA",
+        "Integrar reportes de ética de IA en canales existentes",
+        "Realizar formaciones conjuntas sobre seguridad y ética de IA"
+      ]
+    },
+    "maturityIndicators": {
+      "initial": "Roles de seguridad definidos sin consideración de IA",
+      "managed": "Roles separados para seguridad e IA",
+      "defined": "Roles integrados con responsabilidades específicas para IA",
+      "quantitativelyManaged": "Roles con métricas específicas para evaluación de desempeño en IA",
+      "optimizing": "Estructura organizacional dinámica que se adapta a nuevos riesgos de IA"
+    }
+  },
+  {
+    "id": "REC-001",
+    "category": "Recursos",
+    "iso42001": {
+      "code": "A.4",
+      "title": "Recursos para sistemas de IA",
+      "description": "Identificar y documentar recursos para comprender riesgos e impactos",
+      "objective": "Gestionar adecuadamente todos los recursos necesarios para el desarrollo y operación de sistemas de IA",
+      "keyElements": [
+        "Inventario de activos de IA",
+        "Procedencia de datos",
+        "Recursos algorítmicos específicos",
+        "Gestión de recursos humanos especializados"
+      ],
+      "implementationRequirements": [
+        "Documentación completa de activos de IA",
+        "Trazabilidad de datos utilizados",
+        "Evaluación de calidad de datos",
+        "Mantenimiento de registros de versiones algorítmicas"
+      ]
+    },
+    "iso27001": {
+      "code": "A.5.9",
+      "title": "Inventario de activos",
+      "description": "Identificar activos de información y mantener inventario actualizado",
+      "objective": "Mantener un inventario completo y actualizado de todos los activos de información",
+      "keyElements": [
+        "Identificación de activos de información",
+        "Clasificación de activos",
+        "Asignación de propietarios",
+        "Mantenimiento de inventario actualizado"
+      ],
+      "implementationRequirements": [
+        "Documentación de todos los activos de información",
+        "Clasificación según criticidad y sensibilidad",
+        "Asignación formal de propietarios",
+        "Revisión periódica del inventario"
+      ]
+    },
+    "relationship": {
+      "similarityLevel": "Medio",
+      "numericValue": 3,
+      "synergy": "ISO 42001 requiere un inventario más detallado que incluye aspectos específicos de IA como calidad de datos y trazabilidad",
+      "technicalSimilarities": [
+        "Documentación de activos",
+        "Identificación de recursos",
+        "Gestión de recursos humanos",
+        "Asignación de propietarios"
+      ],
+      "keyDifferences": [
+        "ISO 42001 enfatiza procedencia de datos",
+        "ISO 42001 incluye recursos algorítmicos específicos",
+        "ISO 27001 se centra en confidencialidad",
+        "ISO 27001 no considera calidad de datos para algoritmos"
+      ]
+    },
+    "implementationGuidance": {
+      "leverageFrom27001": [
+        "Utilizar inventario existente de activos de información",
+        "Aprovechar procesos de clasificación de activos",
+        "Mantener estructura de asignación de propietarios"
+      ],
+      "additionalFor42001": [
+        "Ampliar inventario para incluir activos específicos de IA",
+        "Documentar procedencia y calidad de datos",
+        "Incluir metadatos algorítmicos",
+        "Establecer criterios de evaluación de datos"
+      ],
+      "integrationTips": [
+        "Ampliar campos en inventario existente para incluir atributos de IA",
+        "Integrar evaluación de calidad de datos en procesos existentes",
+        "Realizar auditorías conjuntas de activos de información e IA"
+      ]
+    },
+    "maturityIndicators": {
+      "initial": "Inventario básico de activos de información",
+      "managed": "Inventario separado para activos de IA",
+      "defined": "Inventario integrado con campos específicos para IA",
+      "quantitativelyManaged": "Inventario con métricas de calidad de datos y algoritmos",
+      "optimizing": "Inventario dinámico con evaluación automática de calidad de datos"
+    }
+  },
+  {
+    "id": "IMP-001",
+    "category": "Impactos",
+    "iso42001": {
+      "code": "A.5",
+      "title": "Evaluación de impactos",
+      "description": "Evaluar impactos en individuos, grupos y sociedades afectadas",
+      "objective": "Identificar y gestionar los potenciales impactos negativos de los sistemas de IA",
+      "keyElements": [
+        "Evaluación de impactos sociales",
+        "Análisis de sesgos algorítmicos",
+        "Consideración de efectos a largo plazo",
+        "Mecanismos de mitigación de impactos"
+      ],
+      "implementationRequirements": [
+        "Realización de evaluaciones de impacto previas al despliegue",
+        "Análisis de consecuencias en diferentes grupos",
+        "Documentación de resultados y medidas correctivas",
+        "Revisión periódica de impactos"
+      ]
+    },
+    "iso27001": {
+      "code": "A.5.34",
+      "title": "Privacidad y protección de DPI",
+      "description": "Garantizar cumplimiento de normativa de protección de datos",
+      "objective": "Proteger los datos personales y garantizar el cumplimiento de la normativa de privacidad",
+      "keyElements": [
+        "Identificación de requisitos legales",
+        "Protección de datos personales",
+        "Gestión de consentimientos",
+        "Derechos de los interesados"
+      ],
+      "implementationRequirements": [
+        "Evaluación de impacto en protección de datos",
+        "Implementación de medidas de protección",
+        "Documentación de procesos de privacidad",
+        "Mecanismos para ejercer derechos de privacidad"
+      ]
+    },
+    "relationship": {
+      "similarityLevel": "Medio",
+      "numericValue": 3,
+      "synergy": "Ambas normas requieren evaluaciones de impacto, pero ISO 42001 se enfoca en impactos sociales más amplios",
+      "technicalSimilarities": [
+        "Proceso de evaluación documentado",
+        "Análisis de consecuencias",
+        "Conservación de resultados",
+        "Identificación de requisitos legales"
+      ],
+      "keyDifferences": [
+        "ISO 42001 enfoca en impactos sociales",
+        "ISO 42001 considera sesgos algorítmicos",
+        "ISO 27001 se centra en cumplimiento legal",
+        "ISO 27001 no evalúa impactos sociales específicos"
+      ]
+    },
+    "implementationGuidance": {
+      "leverageFrom27001": [
+        "Utilizar procesos existentes de evaluación de impacto",
+        "Aprovechar documentación de protección de datos",
+        "Mantener estructura de análisis de consecuencias"
+      ],
+      "additionalFor42001": [
+        "Ampliar evaluaciones para incluir impacto social",
+        "Incluir análisis de sesgos algorítmicos",
+        "Considerar efectos a largo plazo en la sociedad",
+        "Establecer métricas para evaluación de impacto social"
+      ],
+      "integrationTips": [
+        "Integrar evaluación de impacto social en evaluaciones de privacidad existentes",
+        "Compartir resultados entre equipos de privacidad y ética de IA",
+        "Realizar evaluaciones conjuntas periódicamente"
+      ]
+    },
+    "maturityIndicators": {
+      "initial": "Evaluaciones básicas de privacidad",
+      "managed": "Evaluaciones separadas para privacidad e impacto social",
+      "defined": "Evaluaciones integradas con secciones específicas para IA",
+      "quantitativelyManaged": "Evaluaciones con métricas específicas para impacto social",
+      "optimizing": "Evaluaciones dinámicas que se adaptan a nuevos riesgos sociales"
+    }
+  },
+  {
+    "id": "CIC-001",
+    "category": "Ciclo de vida",
+    "iso42001": {
+      "code": "A.6",
+      "title": "Ciclo de vida del sistema de IA",
+      "description": "Definir criterios y requisitos para cada etapa del ciclo de vida",
+      "objective": "Establecer un marco de gestión para todo el ciclo de vida de los sistemas de IA",
+      "keyElements": [
+        "Desarrollo responsable de IA",
+        "Transparencia algorítmica",
+        "Validación y verificación continua",
+        "Gestión de cambios en sistemas de IA"
+      ],
+      "implementationRequirements": [
+        "Definición de criterios para cada etapa del ciclo de vida",
+        "Implementación de verificaciones éticas",
+        "Documentación de decisiones algorítmicas",
+        "Mantenimiento de registros de versiones"
+      ]
+    },
+    "iso27001": {
+      "code": "A.8.25",
+      "title": "Ciclo de vida de desarrollo seguro",
+      "description": "Establecer procesos seguros para desarrollo de software",
+      "objective": "Integrar la seguridad en todas las fases del ciclo de vida de desarrollo de software",
+      "keyElements": [
+        "Requisitos de seguridad",
+        "Pruebas de seguridad",
+        "Gestión de cambios",
+        "Validación de seguridad"
+      ],
+      "implementationRequirements": [
+        "Definición de procesos seguros de desarrollo",
+        "Implementación de pruebas de seguridad",
+        "Gestión de cambios controlada",
+        "Verificación de seguridad en cada fase"
+      ]
+    },
+    "relationship": {
+      "similarityLevel": "Alto",
+      "numericValue": 4,
+      "synergy": "ISO 42001 extiende el ciclo de vida de desarrollo seguro para incluir consideraciones específicas de IA",
+      "technicalSimilarities": [
+        "Documentación de requisitos",
+        "Verificación y validación",
+        "Monitoreo y mantenimiento",
+        "Gestión de cambios"
+      ],
+      "keyDifferences": [
+        "ISO 42001 enfoca en desarrollo responsable",
+        "ISO 42001 incluye transparencia algorítmica",
+        "ISO 27001 se centra en vulnerabilidades",
+        "ISO 27001 no considera impactos éticos"
+      ]
+    },
+    "implementationGuidance": {
+      "leverageFrom27001": [
+        "Utilizar procesos existentes de desarrollo seguro",
+        "Aprovechar fases de verificación y validación",
+        "Mantener estructura de gestión de cambios"
+      ],
+      "additionalFor42001": [
+        "Ampliar procesos para incluir verificaciones éticas",
+        "Implementar documentación de decisiones algorítmicas",
+        "Establecer criterios de transparencia",
+        "Incluir pruebas de sesgos y equidad"
+      ],
+      "integrationTips": [
+        "Integrar verificaciones éticas en fases existentes de desarrollo",
+        "Compartir documentación entre equipos de seguridad y ética de IA",
+        "Realizar revisiones conjuntas de código y algoritmos"
+      ]
+    },
+    "maturityIndicators": {
+      "initial": "Procesos básicos de desarrollo seguro",
+      "managed": "Procesos separados para seguridad y ética de IA",
+      "defined": "Procesos integrados con verificaciones específicas para IA",
+      "quantitativelyManaged": "Procesos con métricas específicas para evaluación ética",
+      "optimizing": "Procesos dinámicos que se adaptan a nuevos estándares éticos"
+    }
+  }
+]
